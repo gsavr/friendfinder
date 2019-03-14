@@ -1,0 +1,85 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+html body{
+    background-color: #f7f4f9;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    padding-top:20px;
+}
+
+.navtop {
+    height: 65px;
+    background-color: #4c5f66;
+}
+.navbar-brand{
+    height: 60px;
+    padding-top: 2px;
+}
+
+a:link{
+    color: #4c5f66;
+}
+
+a:visited{
+    color: #4c5f66;
+}
+
+a:hover{
+    color: #4c5f66;
+}
+
+a.nav-item.nav-link {
+    padding:15px;
+    font-size: 18px;
+    color: #f7f4f9;
+}
+
+#logo {
+    height: 60px;
+    margin-top: -20px
+}
+
+.jumbotron-home {
+    background-color: #bfd9e0;
+}
+
+.jumbotron-survey {
+    background-color: #ffffff;
+}
+
+#locket {
+    width:250px
+}
+
+.btn{
+    background-color: #4c5f66;
+    color: #f7f4f9
+}
+
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    background-color: #96bcca; 
+    color:#2c2c2c;
+    height: 29px;
+    overflow: hidden;
+    width: 200px;
+    padding-left:5px;
+    -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ }
+ 
+ .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    width: 240px;
+ }
+ 

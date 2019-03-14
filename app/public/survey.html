@@ -13,19 +13,40 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
     <!-- Chosen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/gif" href="assets/images/logomini.png"/>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
 
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navtop">
+      <!-- Logo -->
+      <a class="navbar-brand" href="home.html">
+          <img src="./assets/images/friends.png" alt="Best Friend Finder" id="logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link" href="home.html">Home</a>
+              <a class="nav-item nav-link" href="survey.html">Survey</a>
+          </div>
+       </div>
+  </nav>
+  <!-- End of nav bar -->
+
     <div class="container">
 
         <h2>Survey Questions</h2>
         <hr>
-    
+      <div class="jumbotron jumbotron-survey">
         <h3><strong>About You</strong></h3>
         <h4>Name (Required)</h4>
         <input type="text" id="name" class="form-control" required>
@@ -37,113 +58,133 @@
     
         <h3><strong>Question 1</strong></h3>
         <h4>You enjoy drinking for fun.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q1">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+        </div>
     
         <h3><strong>Question 2</strong></h3>
         <h4>You enjoy reading books.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q2">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+        </div>
     
         <h3><strong>Question 3</strong></h3>
         <h4>You binge watch Nextflix.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q3">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 4</strong></h3>
         <h4>You like dogs.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q4">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 5</strong></h3>
         <h4>You like cats.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q5">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 6</strong></h3>
         <h4>You like going to the gym.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q6">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 7</strong></h3>
         <h4>You keep your home organized.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q7">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 8</strong></h3>
         <h4>You think happy hour should happen every day.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q8">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 9</strong></h3>
         <h4>You like to be around a big group of friends.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q9">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <h3><strong>Question 10</strong></h3>
         <h4>You like to play video games.</h4>
+        <div class="styled-select">
         <select class="chosen-select" id="q10">
-          <option value=""></option>
+          <option value="">Choose your answer</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
+      </div>
     
         <br>
         <br>
@@ -151,11 +192,11 @@
         <!-- Submit Button -->
         <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
          Submit</button>
-    
+    </div>
         <hr>
         <footer class="footer">
           <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/gsavr/friendfinder">GitHub Repo</a></p>
+            <p><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/gsavr/friendfinder" target="_blank">GitHub Repo</a></p>
           </div>
         </footer>
     
@@ -173,8 +214,8 @@
             </div>
             <div class="modal-body">
               <h2 id="match-name"></h2>
-              <img id="match-img" width="500" src="" alt="">
-              <h3>Contact your new best friend:</h3><h3>(555)213-<span class="match-contact text-uppercase"></span></h3><h3><span class="match-contact text-lowercase"></span>@stalkme.com</h3>
+              <img id="match-img" width="565" src="" alt="">
+              <h3>Contact your new best friend:</h3><h3>(555)BEST-<span class="match-contact text-uppercase"></span></h3><h3><span class="match-contact text-lowercase"></span>@bestfriends.com</h3>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

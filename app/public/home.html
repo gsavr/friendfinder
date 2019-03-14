@@ -17,16 +17,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/gif" href="assets/images/logomini.png"/>
+
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navtop">
+        <!-- Logo -->
+        <a class="navbar-brand" href="home.html">
+            <img src="./assets/images/friends.png" alt="Best Friend Finder" id="logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="home.html">Home</a>
+                <a class="nav-item nav-link" href="survey.html">Survey</a>
+            </div>
+         </div>
+    </nav>
+    <!-- End of nav bar -->
+
     <div class="container">
 
-        <div class="jumbotron">
-          <h1>Best Friend Finder</h1>
-          <hr>
-          <h2>Answer a few basic questions. </h2>
-          <h2>Then find your new best friend by matching your compatibility!</h2>
+        <div class="jumbotron jumbotron-home">
+          <div class="row">
+            <div class="col-md-9">
+              <h1>Best Friend Finder</h1>
+              <hr>
+              <h2>Answer a few basic questions. </h2>
+              <h2>Then find your new best friend by matching your compatibility!</h2>
+            </div>
+            <div class="col-md-3">
+              <img src="assets/images/locket.png" alt="locket" id="locket">
+            </div>
+        </div>
           <br>
     
           <div>
@@ -37,7 +65,7 @@
     
         <footer class="footer">
           <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/gsavr/friendfinder">GitHub Repo</a></p>
+            <p><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/gsavr/friendfinder" target="_blank">GitHub Repo</a></p>
           </div>
         </footer>
     

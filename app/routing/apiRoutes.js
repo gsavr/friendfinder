@@ -1,4 +1,3 @@
-var path = require('path');
 
 var friends = require('../data/friends.js');
 
@@ -23,6 +22,10 @@ module.exports = function(app) {
               diff += Math.abs(friends[i].scores[j] - newFriend.scores[j]);
             }
           console.log(diff)
+              if (isNaN(diff)){
+                matchName = "Please make sure to every question";
+                matchImage = "https://cdn2.iconfinder.com/data/icons/emoticons-38/110/Dead-512.png"
+              }
               if (diff < totalDifference) {
                 totalDifference = diff;
                 //console.log("smallest:"+totalDifference)
